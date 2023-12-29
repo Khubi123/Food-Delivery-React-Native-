@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Food KungFu",
+    "slug": "food-delivery",
+    "description": "This is Food Delivery App but only design (without any functionality)",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons8-hamburger-96.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/icons8-tropical-drink-96.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.khubaib75.fooddelivery"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.khubaib75.fooddelivery"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5bf0b0bb-1a1b-4250-b23b-6364cf07b627"
+      }
+    },
+    "owner": "khubaib75"
+  }
+}
